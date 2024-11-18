@@ -75,4 +75,46 @@ int main()
 
     cout << "\nEnd of program. Good bye!";
 
+    ///////////// Extreme case tests - Uncomment at your own perril ///////////////////
+
+     int var = 0;
+
+    // for (int i = 1; i < 50000; i++)
+    // {
+    //     var = i;
+    //     if (tn.value(var) > 0) {
+    //         cout << tn.value(var);
+    //     }
+    //     else{
+    //         cout << "( " << i << " )";
+    //         break;
+    //     }
+    // }
+
+    // for (int i = 1; i < 50000; i++)
+    // {
+    //     var = i;
+    //     if (tn.add(var, var) > 0) {
+    //         cout << tn.add(var, var);
+    //     }
+    //     else{
+    //         cout << "( " << i << " )";
+    //         break;
+    //     }
+    // }
+
+    // for (int i = 1; i < 50000; i++)
+    // {
+    //     var = i;
+    //     if (tn.subtract(var, var) >= 0) {
+    //         cout << tn.subtract(var, var);
+    //     }
+    //     else{
+    //         cout << "( " << i << " )";
+    //         break;
+    //     }
+    // }
+
+
+
 }
